@@ -34,7 +34,7 @@ The goal of this assignment was to perform **player re-identification** within a
 
 | Technique | Description | Outcome |
 |----------|-------------|---------|
-| YOLOv8 Tracking | Used `ultralytics` tracking with object ID persistence | Accurate, efficient |
+| YOLOv11 Tracking | Used `ultralytics` tracking with object ID persistence | Accurate, efficient |
 | Class Filtering | Tracked only class ID `2` (assumed to be "player") | Reduced noise, focused output |
 | Confidence Hiding | Skipped confidence display in visualization | Cleaner UI |
 | ID Annotation | Each player boxed with unique ID | Useful for re-ID evaluation |
