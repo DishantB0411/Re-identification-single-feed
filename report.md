@@ -1,9 +1,9 @@
-# 📊 Player Re-Identification – Assignment Report
+#  Player Re-Identification – Assignment Report
 
-## 👨‍💻 Author
+##  Author
 Dishant Bothra
 
-## 🎯 Objective
+##  Objective
 
 The goal of this assignment was to perform **player re-identification** within a single video feed using a custom-trained object detection model. The system must:
 
@@ -14,10 +14,10 @@ The goal of this assignment was to perform **player re-identification** within a
 
 ---
 
-## 🔍 Approach & Methodology
+##  Approach & Methodology
 
 1. **Model Selection**:  
-   Used a custom-trained YOLOv8 model (`best.pt`) tailored for detecting players in sports footage.
+   Used a custom-trained YOLOv11 model (`best.pt`) tailored for detecting players in sports footage.
 
 2. **Tracking Pipeline**:
    - Leveraged `ultralytics.YOLO.track()` with `persist=True` to maintain player IDs.
@@ -30,7 +30,7 @@ The goal of this assignment was to perform **player re-identification** within a
 
 ---
 
-## 🧪 Techniques Tried & Outcomes
+##  Techniques Tried & Outcomes
 
 | Technique | Description | Outcome |
 |----------|-------------|---------|
@@ -41,7 +41,7 @@ The goal of this assignment was to perform **player re-identification** within a
 
 ---
 
-## 🚧 Challenges Encountered
+##  Challenges Encountered
 
 1. **Class Mapping Confusion**  
    Initially needed to confirm which class ID corresponds to "player" in the dataset. Resolved via inspection.
@@ -54,7 +54,7 @@ The goal of this assignment was to perform **player re-identification** within a
 
 ---
 
-## 🧩 Incomplete or Future Work
+##  Incomplete or Future Work
 
 - **Dynamic Class Names**  
   Current implementation hardcodes class ID = 2. A more robust system would use class names from metadata.
@@ -70,13 +70,13 @@ The goal of this assignment was to perform **player re-identification** within a
 
 ---
 
-## 🧠 Reflections
+##  Reflections
 
 This was a practical, focused exercise in applying object detection for video analysis with real-world constraints. It showcased the balance between simplicity (clear visualization) and functionality (accurate re-identification).
 
 ---
 
-## 📎 References
+##  References
 
 - [Ultralytics YOLOv8 Docs](https://docs.ultralytics.com/)
 - [OpenCV VideoWriter](https://docs.opencv.org/4.x/dd/d9e/classcv_1_1VideoWriter.html)
