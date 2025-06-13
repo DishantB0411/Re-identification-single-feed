@@ -1,4 +1,3 @@
-````markdown
 # Player Re-Identification and Tracking
 
 This project implements a player re-identification system using a custom-trained YOLOv8 model. The system tracks only a specific object class (e.g., players) from a video, assigns persistent IDs, and removes confidence scores from the visual output.
@@ -76,9 +75,3 @@ pip install ultralytics opencv-python
 
 For any issues, feel free to reach out via the repository or email.
 
-```
-
----
-
-Let me know if you'd like a version with your name, links, or formatted for GitHub Pages as well.
-```
